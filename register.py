@@ -1,5 +1,7 @@
 from mistral.client import MistralClient
 
+from fine_tuning_data_prep import prepare_documents
+
 # initialize the Mistral client with your API key
 client = MistralClient('YOUR_API_KEY')
 
